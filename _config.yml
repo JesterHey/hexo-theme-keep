@@ -12,21 +12,19 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Keep Theme
+  title: JesterHey's Blog
 
   # Blog website author name
-  author: Keep Team
+  author: JesterHey
 
   # Author avatar, You can use local image path or image link
-  avatar: /images/avatar.svg
+  avatar: 
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  logo: 
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
-
-
+  favicon: images/a2a7641a26b367608c6ef28ce9b7e983.png
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/menu.html
 # ---------------------------------------------------------------------------------------
@@ -34,14 +32,14 @@ base_info:
 # e.g. to enable categories, you need to execute `hexo new page categories`
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
-  home: /                       # || fa-solid fa-home
-  archives: /archives           # || fa-solid fa-box-archive
+  home: / || fa-solid fa-house                 # || fa-solid fa-home
+  archives: /archives || fa-solid fa-box-archive          # || fa-solid fa-box-archive
   # tags: /tags                 # || fa-solid fa-tags
   # categories: /categories     # || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
-  # about: /about               # || fa-solid fa-user-graduate
+  about: /about || fa-solid fa-address-card           # || fa-solid fa-user-graduate
   # ......
 
 
@@ -49,7 +47,7 @@ menu:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/first_screen.html
 # ---------------------------------------------------------------------------------------
 first_screen:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
   background_img: /images/bg.svg
@@ -59,7 +57,7 @@ first_screen:
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
-  description: Keep writing and Keep loving.
+  description: Imagination,Creation and Curiosity!
 
   # If enable hitokoto, first screen description is different every time when you enter the website
   hitokoto: false      # Option values: true | false
@@ -69,13 +67,13 @@ first_screen:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true     # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
-    github:          # GitHub
+    github: https://github.com/JesterHey         # GitHub
     weixin:          # WeChat
     qq:              # QQ
     weibo:           # WeiBo
@@ -91,7 +89,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: false  # Option values: true | false
+  progress_bar: true  # Option values: true | false
 
   # Show percent when page scroll
   percent: false       # Option values: true | false
